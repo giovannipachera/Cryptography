@@ -4,7 +4,7 @@ lower_letters = "abcdefghijklmnopqrstuvwxyz"
 def main():
     assert encrypt("SECURE", 3) == "VHFXUH"
     assert decrypt("VHFXUH", 3) == "SECURE"
-    assert encrypt("Hello World", 13) == "Uryyb Jbeyq"  # ROT13!
+    assert encrypt("Hello World", 13) == "Uryyb Jbeyq"
     
     return 0
 
